@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+<h1 align='center'>Vniir</h1>
+<p align='center'>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align='center'>
+<img alt="Static Badge" src="https://img.shields.io/badge/npm-9.5.1.0-green">
+<img alt="Static Badge" src="https://img.shields.io/badge/nodeJS-18.16.0-blue">
+<img alt="Static Badge" src="https://img.shields.io/badge/react-18.2.0-lightred">
+<img alt="Static Badge" src="https://img.shields.io/badge/react_redux-8.1.3-lightred">
+<img alt="Static Badge" src="https://img.shields.io/badge/sass-1.69.1-lightred">
+<img alt="Static Badge" src="https://img.shields.io/badge/axios-1.4.0-lightred">
+<img alt="Static Badge" src="https://img.shields.io/badge/react_router_dom-6.17.2-lightred">
 
-## Available Scripts
+</p>
 
-In the project directory, you can run:
+## About
 
-### `npm start`
+<p>
+    В задаче нет возможности нормально реализовать работу с JWT, потому что нет доступа к backend, где как раз и отлавливается token из cookies, и мы можем решать отправлять данные или нет
+    
+    В данном случае я написал interceptor, и установил в localstorage токен, но это можно обойти если просто написать от руки что угодно в localstorage.
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project setup
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+npm install
+npm run start
+```
 
-### `npm test`
+## Usege
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Для архитектуры проекта была использованна методология Feature-Sliced Design
 
-### `npm run build`
+<div>
+<img src='https://cdn-icons-png.flaticon.com/512/732/732212.png' alt='html' width='50px'>
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png' alt='sass' width='50px'>
+<img src='https://cdn-icons-png.flaticon.com/512/5968/5968381.png' width='50px' alt='typescript'>
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png' alt='react' width='50px'>
+<img src='https://repository-images.githubusercontent.com/347723622/92065800-865a-11eb-9626-dff3cb7fef55' alt='redux-toolkit' width='50px'>
+<img src='https://static-00.iconduck.com/assets.00/react-router-icon-512x279-zswz065s.png' alt='react-router-dom' width='50px'>
+<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3KlEIZoTOWXCd4wVB7uW9VSxt0ypX7IpWXwm8wFbCJutHyuHRT8fIWTH0xciEXHNuC1s&usqp=CAU' alt='fsd' width='50px'>
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### My contact
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://www.linkedin.com/in/andrey-lisin-5323a7239/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+</a>
+<a href="https://t.me/lisichkinlove">
+    <img src="https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Badge"/>
+</a>
