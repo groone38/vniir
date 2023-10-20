@@ -1,0 +1,11 @@
+@import "./styles/index.scss";
+
+.App {
+  max-width: $desktop;
+  margin: 0 auto;
+
+  @media (max-width: $tablet) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

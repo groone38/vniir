@@ -1,0 +1,13 @@
+@import "app/styles";
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 1rem;
+  margin: 1rem 10rem 0;
+
+  @media (max-width: $tablet) {
+    margin: 1rem 1rem 0;
+  }
+}
